@@ -4,6 +4,8 @@
 
 UAS_InterfaceB::UAS_InterfaceB()
 {
+	LOG(INFO) << "B接口初始化..." ;
+
 }
 
 
