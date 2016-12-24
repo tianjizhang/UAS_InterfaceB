@@ -13,9 +13,18 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="jrtplib">
+      <UniqueIdentifier>{49cc6a37-69c1-471b-b68a-0d570f4f64ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jthread">
+      <UniqueIdentifier>{3ec75a33-453c-4091-a109-e0e7a51e8845}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="UAS_InterfaceB.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RTPSessionS.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
@@ -24,6 +33,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RTPSessionS.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
